@@ -27,7 +27,7 @@ public class FizzBuzz {
      * @param i The integer to be converted to its FizzBuzz value
      * @return String The output of the integer as a FizzBuzz value
      * 
-     * **/
+     */
     static String ConvertToFizzBuzzValue(int i) {
     	
         if (i % 15 == 0){
