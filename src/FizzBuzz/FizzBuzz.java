@@ -3,12 +3,12 @@ package FizzBuzz;
 
 public class FizzBuzz {
 	
-	static final int START_VALUE = 1; //The starting value to be processed for FizzBuzz 
-	static final int END_VALUE = 100; //The ending value to be processed for FizzBuzz
+    static final int START_VALUE = 1; //The starting value to be processed for FizzBuzz 
+    static final int END_VALUE = 100; //The ending value to be processed for FizzBuzz
 	
-	/** 
-	 * @param args 
-	 */
+    /** 
+     * @param args 
+     */
     public static void main(String args[]) 
     { 
 	    for (int i = START_VALUE; i <= END_VALUE; i++) {
