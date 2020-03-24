@@ -29,15 +29,20 @@ public class FizzBuzz {
      * 
      * **/
     static String ConvertToFizzBuzzValue(int i) {
-        if (i % 3 == 0 && i % 5 == 0){
+    	
+        if (i % 15 == 0){
             return "FizzBuzz";
         }
+        
         if (i % 3 == 0) {
         	return "Fizz"; 
-        } else if (i % 5 == 0) {
-        	return "Buzz"; 
-        } else {
-            return Integer.toString(i); 
         }
+        
+        if (i % 5 == 0) {
+        	return "Buzz"; 
+        }
+        
+        return String.valueOf(i); 
+
     }
 }
