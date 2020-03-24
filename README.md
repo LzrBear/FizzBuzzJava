@@ -1,3 +1,8 @@
-This application will return the number 1 to 100 with multiples of 3 being replaced with Fizz, multiples of 5 being replaced with buzz and multiples of both 3 and 5 being replaced with fizzbuzz.
+# Fizz Buzz
+*Fizz Buzz in Java*
 
-The application has unit tests in the associated tests file
+This application will return the number 1 to 100 with the following rules in place:
+* multiples of 3 will be replaced with Fizz
+* multiples of 5 will be replaced with Buzz
+* multiples of both 3 and 5 being replaced with FizzBuzz
+* all other integers will be displayed as normal
